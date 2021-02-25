@@ -1,0 +1,27 @@
+.comics__container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.comics__item{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: var(--spacing-large);
+    transition: 0.5s;
+    border: 2px solid yellowgreen;
+    width: 250px;
+    cursor: pointer;
+    background-color: var(--color-light);
+}
+.comics__item:hover{
+    transform: rotate(-3deg) scale(0.95);
+    filter: saturate(150%);
+}
+.comics__name{
+    display: flex;
+    margin: auto;
+    padding: var(--spacing-small);
+}
+.comics__img{
+  width: 100%;
+}
